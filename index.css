@@ -1,0 +1,148 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    font-family:sans-serif;
+    font-style:normal;
+     
+}
+
+div.main-container{
+    margin: auto;
+}
+
+div.sub-container{
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #1F2937;
+}
+
+h2{
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 52px;
+    padding-top: 118px;
+    /* or 100% */
+    letter-spacing: -0.025em;
+    /* white */
+   color: #FFFFFF;font-family:sans-serif;
+   font-style:normal;
+    font-weight: 800;
+    font-size: 40px;
+    padding-left: 52px;
+    padding-top: 118px;
+    /* or 100% */   
+    letter-spacing: -0.025em;
+    /* white */
+    color: #FFFFFF;
+}
+
+span.text1{
+    color: #FFFFFF; 
+}
+span.text2{
+    color: #10B981;
+}
+
+p{
+    font-family:sans-serif;
+    font-style:normal;
+    color:#D5D4D8;
+    font-weight: 800;
+    /* padding-top: 10px; have to correct this*/
+    margin: 0px 52px 20px 52px;
+}
+
+
+button.generatePasswordBtn{
+    width: 223px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 10px 52px;
+    padding: 10px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+img.img-pass{
+    left: 15%;
+    right: 15%;
+    top: 5%;
+    bottom: 5%;
+}
+
+div.passwordBtn-container{
+    border-top: 1px solid #2F3E53;
+    padding-top: 35px;
+    margin-top: 20px;
+}
+
+ul.pass-list{
+    color: #55F991;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+    gap: 24px 27px;
+    margin-top: 2px;
+}
+
+li{
+    list-style: none;
+}
+
+
+#hiddenPasBtn1{
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#hiddenPasBtn2 {
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#hiddenPasBtn3 {
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;   
+}
+
+#hiddenPasBtn4 {
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    background: #273549;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;   
+}
+
+
+
+
