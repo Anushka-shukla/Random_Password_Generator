@@ -30,8 +30,8 @@ h2{
     /* or 100% */
     letter-spacing: -0.025em;
     /* white */
-   color: #FFFFFF;font-family:sans-serif;
-   font-style:normal;
+    color: #FFFFFF;font-family:sans-serif;
+    font-style:normal;
     font-weight: 800;
     font-size: 40px;
     padding-left: 52px;
@@ -46,7 +46,7 @@ span.text1{
     color: #FFFFFF; 
 }
 span.text2{
-    color: #10B981;
+    color: #55F991;
 }
 
 p{
@@ -92,14 +92,18 @@ ul.pass-list{
     grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
     gap: 24px 27px;
     margin-top: 2px;
+   
 }
 
 li{
     list-style: none;
 }
 
+.pass-list > li {
+    
+}
 
-#hiddenPasBtn1{
+#Paswd1{
     width: 211px;
     height: 39px;
     left: 287px;
@@ -108,9 +112,14 @@ li{
     cursor: pointer;
     font-weight: 500;
     padding: 10px;
+    color: #55F991;
+    background-image: url(assets/elipsis.png);
+    background-repeat: no-repeat;
+    background-size: 14px 8px;
+    background-position: 50% 50%;
 }
 
-#hiddenPasBtn2 {
+#Paswd2 {
     width: 211px;
     height: 39px;
     left: 287px;
@@ -119,9 +128,14 @@ li{
     cursor: pointer;
     font-weight: 500;
     padding: 10px;
+    color: #55F991;
+    background-image: url(assets/elipsis.png);
+    background-repeat: no-repeat;
+    background-size: 14px 8px;
+    background-position: 50% 50%;
 }
 
-#hiddenPasBtn3 {
+#Paswd3 {
     width: 211px;
     height: 39px;
     left: 287px;
@@ -129,10 +143,15 @@ li{
     border-radius: 6px;
     cursor: pointer;
     font-weight: 500;
-    padding: 10px;   
+    padding: 10px; 
+    color: #55F991;  
+    background-image: url(assets/elipsis.png);
+    background-repeat: no-repeat;
+    background-size: 14px 8px;
+    background-position: 50% 50%;
 }
 
-#hiddenPasBtn4 {
+#Paswd4 {
     width: 211px;
     height: 39px;
     left: 287px;
@@ -140,7 +159,12 @@ li{
     border-radius: 6px;
     cursor: pointer;
     font-weight: 500;
-    padding: 10px;   
+    padding: 10px;
+    color: #55F991;  
+    background-image: url(assets/elipsis.png);
+    background-repeat: no-repeat;
+    background-size: 14px 8px;
+    background-position: 50% 50%; 
 }
 
 
