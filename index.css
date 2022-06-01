@@ -30,7 +30,7 @@ h2{
     /* or 100% */
     letter-spacing: -0.025em;
     /* white */
-    color: #FFFFFF;font-family:sans-serif;
+    color: #FFFFFF;
     font-style:normal;
     font-weight: 800;
     font-size: 40px;
@@ -71,6 +71,7 @@ button.generatePasswordBtn{
     padding: 10px;
     gap: 16px;
     cursor: pointer;
+    border: none;
 }
 
 img.img-pass{
@@ -117,6 +118,7 @@ li{
     background-repeat: no-repeat;
     background-size: 14px 8px;
     background-position: 50% 50%;
+    border: none;
 }
 
 #Paswd2 {
@@ -133,6 +135,7 @@ li{
     background-repeat: no-repeat;
     background-size: 14px 8px;
     background-position: 50% 50%;
+    border: none;
 }
 
 #Paswd3 {
@@ -149,6 +152,7 @@ li{
     background-repeat: no-repeat;
     background-size: 14px 8px;
     background-position: 50% 50%;
+    border: none;
 }
 
 #Paswd4 {
@@ -165,8 +169,72 @@ li{
     background-repeat: no-repeat;
     background-size: 14px 8px;
     background-position: 50% 50%; 
+    border: none;
 }
 
+label {
+    color:#D5D4D8;
+    font-weight: 500;
+    font-size: medium;
+    margin-bottom: 4px;
+    
+}
+
+.length-control {
+    height: 24px;
+    display: flex;
+}
+
+.length-control > input {
+    height: 100%;
+    width: 3em;
+    text-align: center;
+    background: #273549;
+    border: none;
+    color: #D5D4D8;
+    text-align: center;
+}
+
+.length-control > input:focus {
+    background: rgba(0,0,0,0.1);
+    /*outline: none;*/
+}
+
+.length-control > button {
+    padding: 0 12px;
+    font-weight: 500;
+    color:#ffff;
+    background: #10B981;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.length-control > button#decrement {
+    border-radius: 12px 0 0 12px;
+    border: none;
+}
+
+.length-control > button#increment {
+    border-radius: 0 12px 12px 0;
+    border: none;
+    
+}
+
+
+button:hover,
+button:active {
+    opacity: 0.8;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.length{
+    padding: 10px;
+}
 
 
 
