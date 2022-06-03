@@ -4,4 +4,4 @@ A password generator app.
 - Generate a random password.
 - On clicking the password buttons you'll be able to copy the passwords.
 
-
+![password generator](https://github.com/Anushka-shukla/Random_Password_Generator/blob/master/password-generator.png)
