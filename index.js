@@ -51,11 +51,43 @@ function generateRandomPass() {
     for (let i = 1; i <= inputLen.value; i++) {
         let char = Math.floor(Math.random() * str.length)
         pass = pass + str.charAt(char)
-        console.log(pass)
+        // console.log(pass)
     }
 
     return pass;
 
 }
 
+// copy password 1
+function copyPaswd1() {
+    
+    navigator.clipboard.writeText(passwordEl1)
+    
+    var tooltip = document.getElementById("Paswd1")
+    // tooltip.innerHTML = "Copied: " + passwordEl1
 
+}
+
+function copyPaswd2() {
+    
+    navigator.clipboard.writeText(passwordEl2)
+    
+    var tooltip = document.getElementById("Paswd2")
+
+}
+
+function copyPaswd3() {
+    
+    navigator.clipboard.writeText(passwordEl3)
+    
+    var tooltip = document.getElementById("Paswd3")
+
+}
+
+function copyPaswd4() {
+    
+    navigator.clipboard.writeText(passwordEl4)
+    
+    var tooltip = document.getElementById("Paswd4")
+
+}
