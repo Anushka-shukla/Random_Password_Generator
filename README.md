@@ -5,3 +5,10 @@ A password generator app.
 - On clicking the password buttons you'll be able to copy the passwords.
 
 ![password generator](https://github.com/Anushka-shukla/Random_Password_Generator/blob/master/password-generator.png)
+
+# What I learnt
+- Objects & functions
+- if else
+- Loops and arrays
+- push, pop, unshift, shift
+- Logical operators
